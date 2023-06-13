@@ -1,0 +1,27 @@
+{
+  "name": "@hudsontavares/jest-angular-import-meta",
+  "version": "1.0.2",
+  "description": "Quickly resolve an annoying problem: combining Jest with import.meta.url",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudsontavares/jest-angular-import-meta.git"
+  },
+  "author": "Hudson Tavares <hudsonsilva.developer@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hudsontavares/jest-angular-import-meta/issues"
+  },
+  "homepage": "https://github.com/hudsontavares/jest-angular-import-meta#readme",
+  "dependencies": {
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "ts-jest": "^29.1.0"
+  }
+}
